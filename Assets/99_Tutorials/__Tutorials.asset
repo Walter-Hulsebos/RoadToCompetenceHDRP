@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89305aa391d1c5141bbe1628d930a2c5, type: 3}
+  m_Name: __Tutorials
+  m_EditorClassIdentifier: 
+  Modified:
+    m_PersistentCalls:
+      m_Calls: []
+  ParentContainer: {fileID: 0}
+  OrderInView: 0
+  BackgroundImage: {fileID: 0}
+  Title:
+    m_Untranslated: THE ROAD TO COMPETENCE
+  Subtitle:
+    m_Untranslated: Knowing your tools
+  Description:
+    m_Untranslated: 
+  ProjectLayout: {fileID: 102900000, guid: 9d6f44592b6054254899886ee83841f8, type: 3}
+  Sections:
+  - OrderInView: 0
+    Heading:
+      m_Untranslated: 
+    Text:
+      m_Untranslated: Basic Scene View Navigation.
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 1918e7bff8ff44878a0003977ca03971, type: 3}
+    Tutorial: {fileID: 11400000, guid: 51a83f21771aa4bb4b864e90bc79aeab, type: 2}
+  - OrderInView: 1
+    Heading:
+      m_Untranslated: <color=#7fd6fc>Prefabs</color>
+    Text:
+      m_Untranslated: Prefabs, how to add them and how to make them.
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: a77faddc74a5a452e8ae1a65ef7e92c7, type: 3}
+    Tutorial: {fileID: 11400000, guid: 97ff54290d4d54a86b2e22ed724ab843, type: 2}
+  - OrderInView: 2
+    Heading:
+      m_Untranslated: Nested <color=#7fd6fc>Prefabs</color>
+    Text:
+      m_Untranslated: Learn how to use Nested Prefabs & Prefab Variants
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: a77faddc74a5a452e8ae1a65ef7e92c7, type: 3}
+    Tutorial: {fileID: 11400000, guid: 19c772fecca96fe49b4248a8aec9eeb9, type: 2}
+  - OrderInView: 3
+    Heading:
+      m_Untranslated: Play Mode
+    Text:
+      m_Untranslated: Enter Play Mode Tips & Tricks
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 87e82d8dd40994ee58d1b317c145b92f, type: 3}
+    Tutorial: {fileID: 11400000, guid: 4f51b4a0be1d32c499ef43d75132bf14, type: 2}
+  - OrderInView: 4
+    Heading:
+      m_Untranslated: Setting Up Inputs
+    Text:
+      m_Untranslated: Learn how to import Packages and their Samples
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 4db00f0358d194313a877344f4ba535c, type: 3}
+    Tutorial: {fileID: 11400000, guid: acc3795cfd9ef4206836da4a1d377627, type: 2}
+  - OrderInView: 5
+    Heading:
+      m_Untranslated: Import Cinemachine
+    Text:
+      m_Untranslated: Learn how to import Packages and their Samples
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 4db00f0358d194313a877344f4ba535c, type: 3}
+    Tutorial: {fileID: 11400000, guid: acc3795cfd9ef4206836da4a1d377627, type: 2}
