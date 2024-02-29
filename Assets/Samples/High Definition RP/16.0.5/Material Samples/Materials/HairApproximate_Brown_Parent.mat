@@ -98,8 +98,10 @@ Material:
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 2
     - _DstBlend: 10
+    - _DstBlend2: 10
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
+    - _ExcludeFromTUAndAA: 0
     - _Going_Grey: 0
     - _MaxSmoothness: 0.6
     - _Max_Smoothness: 0.6
@@ -109,6 +111,7 @@ Material:
     - _Opacity_Multiplier: 1
     - _Opacity_Threshold: 0.71
     - _OpaqueCullMode: 2
+    - _PerPixelSorting: 0
     - _Per_Strand_Hue_Variation: 0.01
     - _Per_Strand_Smoothness_Variation: 0.1
     - _RECALCULATE_CARD_NORMALS: 1
@@ -137,10 +140,10 @@ Material:
     - _StencilRefGBuffer: 2
     - _StencilRefMV: 32
     - _StencilWriteMask: 6
-    - _StencilWriteMaskDepth: 8
+    - _StencilWriteMaskDepth: 9
     - _StencilWriteMaskDistortionVec: 4
     - _StencilWriteMaskGBuffer: 14
-    - _StencilWriteMaskMV: 40
+    - _StencilWriteMaskMV: 43
     - _SupportDecals: 1
     - _SurfaceType: 1
     - _Tip: 0.05
