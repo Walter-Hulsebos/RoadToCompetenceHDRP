@@ -10,8 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
-  m_Name: 07-Edit-Gravity
+  m_Name: 3_02-First-Play
   m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Enter Play Mode
   m_Paragraphs:
     m_Items:
     - m_Type: 7
@@ -20,35 +22,36 @@ MonoBehaviour:
       Text:
         m_Untranslated: 
       m_Tutorial: {fileID: 0}
-      m_Image: {fileID: 2800000, guid: 7b55f1fc370f748968d647e009ea039b, type: 3}
-      m_Video: {fileID: 32900000, guid: 87d213d9011a74f4790e16e70e97351b, type: 3}
+      m_Image: {fileID: 2800000, guid: e1752dd6c13f741b0829ec19348a0be6, type: 3}
+      m_Video: {fileID: 32900000, guid: ae2d052958b764e549e2b297dfaafad1, type: 3}
       m_CriteriaCompletion: 0
       m_Criteria:
         m_Items: []
       m_MaskingSettings:
         m_MaskingEnabled: 1
         m_UnmaskedViews:
-        - m_SelectorType: 1
+        - m_SelectorType: 0
           m_ViewType:
-            m_TypeName: 
-          m_EditorWindowType:
-            m_TypeName: UnityEditor.InspectorWindow, UnityEditor.CoreModule, Version=0.0.0.0,
+            m_TypeName: UnityEditor.Toolbar, UnityEditor.CoreModule, Version=0.0.0.0,
               Culture=neutral, PublicKeyToken=null
+          m_EditorWindowType:
+            m_TypeName: 
           m_AlternateEditorWindowTypes:
             m_Items: []
           m_MaskType: 0
           m_MaskSizeModifier: 0
           m_UnmaskedControls:
-          - m_SelectorMode: 2
+          - m_SelectorMode: 5
+            m_SelectorMatchType: 0
             m_GUIContent:
               m_Text: 
               m_Image: {fileID: 0}
               m_Tooltip: 
-            m_ControlName: 
-            m_PropertyPath: GravityDownForce
+              m_TextWithWhitespace: 
+            m_ControlName: ToolbarPlayModePlayButton
+            m_PropertyPath: 
             m_TargetType:
-              m_TypeName: Unity.FPS.Gameplay.PlayerCharacterController, fps.Gameplay,
-                Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+              m_TypeName: 
             m_GUIStyleName: 
             m_ObjectReference:
               m_SceneObjectReference:
@@ -61,7 +64,7 @@ MonoBehaviour:
                 m_Prefab: {fileID: 0}
               m_FutureObjectReference: {fileID: 0}
             m_VisualElementClassName: 
-            m_VisualElementName: 
+            m_VisualElementName: Play
             m_VisualElementTypeName: 
       m_Summary: 
       m_Description: 
@@ -70,15 +73,13 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Decrease the Gravity Down Force
+        m_Untranslated: 
       Text:
-        m_Untranslated: "The <b>Gravity Down Force</b> property controls how high
-          the player can jump.\n\nGo deeper:\n\n\u2022 When you select a GameObject
-          in the Hierarchy, you\u2019ll see its <b>components</b> in the <b>Inspector</b>.
-          \n\n\u2022 Components contain <b>properities</b> that give a GameObject
-          specific functionalities.\n\n\u2022 The <b>Player Character Controller</b>
-          properties are what make the player character move in response to player
-          input."
+        m_Untranslated: "First, let's try the game using <b>Play Mode</b>! You can
+          select Play in the <b>Toolbar</b> at the top of this layout.\n\n\u2022
+          The <b>Scene view</b> (in the center of this layout) is where you\u2019ll
+          manipulate and change things.\n\n\u2022 When you enter Play Mode, the Scene
+          view changes into the <b>Game view</b> for testing."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -87,7 +88,18 @@ MonoBehaviour:
         m_Items: []
       m_MaskingSettings:
         m_MaskingEnabled: 0
-        m_UnmaskedViews: []
+        m_UnmaskedViews:
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.InspectorWindow, UnityEditor, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 0
+          m_UnmaskedControls: []
       m_Summary: 
       m_Description: 
       m_InstructionBoxTitle: 
@@ -97,11 +109,7 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: 'Change the <b>Gravity Down Force</b> to <b>12</b> using
-          the number field.
-
-
-          Select <b>Next</b> to continue.'
+        m_Untranslated: Select <b>Play</b> to enter Play Mode.
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -109,9 +117,9 @@ MonoBehaviour:
       m_Criteria:
         m_Items:
         - Type:
-            m_TypeName: Unity.Tutorials.Core.Editor.PropertyModificationCriterion,
-              Unity.Tutorials.Core.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          Criterion: {fileID: 114605322033829266}
+            m_TypeName: Unity.Tutorials.Core.Editor.PlayModeStateCriterion, Unity.Tutorials.Core.Editor,
+              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+          Criterion: {fileID: 114177020261999768}
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
@@ -141,7 +149,7 @@ MonoBehaviour:
   DoneButton:
     m_Untranslated: Done
   m_CompletedSound: {fileID: 8300000, guid: 93fbb109633e844259ea828442bda0cb, type: 3}
-  m_AutoAdvance: 0
+  m_AutoAdvance: 1
   Showing:
     m_PersistentCalls:
       m_Calls: []
@@ -174,7 +182,7 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: 
   m_DoneButton: 
---- !u!114 &114605322033829266
+--- !u!114 &114177020261999768
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -183,7 +191,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e52eaa6fdf2a4794ba81c7bc450905e, type: 3}
+  m_Script: {fileID: 11500000, guid: 641211c85919e4aceb79a0d364004d75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Completed:
@@ -192,18 +200,5 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
-  m_PropertyPath: GravityDownForce
-  m_TargetValueMode: 0
-  m_TargetValue: 12
-  m_TargetValueType: 1
-  m_Target:
-    m_SceneObjectReference:
-      m_SceneGuid: d794a2ef8ba31d847ad3c19d03e2ddb9
-      m_GameObjectGuid: b7ef103c-6e78-41af-8322-5ac95ed05882
-      m_SerializedComponentType:
-        m_TypeName: Unity.FPS.Gameplay.PlayerCharacterController, fps.Gameplay, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      m_ComponentIndex: 0
-      m_AssetObject: {fileID: 0}
-      m_Prefab: {fileID: 0}
-    m_FutureObjectReference: {fileID: 0}
+  isTesting: 0
+  m_RequiredPlayModeState: 0

@@ -23,8 +23,7 @@ MonoBehaviour:
   Subtitle:
     m_Untranslated: High Definition Render Pipeline
   Description:
-    m_Untranslated: This series of tutorials will lead you through the basics of
-      HDRP.
+    m_Untranslated: 
   ProjectLayout: {fileID: 102900000, guid: 5e081507e2933e14d9dcaec83a20d2f9, type: 3}
   Sections:
   - OrderInView: 0

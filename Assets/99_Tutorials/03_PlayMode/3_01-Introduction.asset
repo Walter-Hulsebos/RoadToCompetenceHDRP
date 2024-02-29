@@ -10,8 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
-  m_Name: 01-Introduction
+  m_Name: 3_01-Introduction
   m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Get started
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -35,12 +37,10 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Get started
+        m_Untranslated: 
       Text:
-        m_Untranslated: "In this tutorial, you\u2019ll begin to explore the basics
-          of the Unity Editor as you:\n\n\u2022 Playtest the beginning of the FPS
-          Microgame\n\u2022 Review the Unity Editor interface\n\u2022 Make the player
-          character jump higher\n\nReady? Let's go!"
+        m_Untranslated: Here you'll learn some tips and tricks about Unity's Play
+          Mode
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
