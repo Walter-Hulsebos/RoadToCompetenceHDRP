@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
   m_Name: PBL_04
   m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Done!
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -35,7 +37,7 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Congratulations!
+        m_Untranslated: 
       Text:
         m_Untranslated: "In this tutorial, you learned how to use Physically Based
           Light intensities and colors to achieve realistic lighting.\n\nWhen talking

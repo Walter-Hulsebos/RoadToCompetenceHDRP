@@ -55,7 +55,7 @@ MonoBehaviour:
           Global Settings.</b> \n\n2. In the <b>Default Volume Profile</b> section,
           search for the <b>Color Adjustments</b> component, using the dedicated
           search bar.\n\n3. Expand the component, and move the <b>Saturation</b>
-          sllider left and right. \n\nYou can see that the entire Scene becomes either
+          slider left and right. \n\nYou can see that the entire Scene becomes either
           less or more saturated, regardless of the camera position.\n\n4. Undo your
           change by resetting the <b>Saturation</b> to 0. Alternatively, you may
           right click on the property to revert it to its default value."

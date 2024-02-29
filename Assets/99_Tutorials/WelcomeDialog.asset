@@ -21,16 +21,8 @@ MonoBehaviour:
   m_Title:
     m_Untranslated: The Road To Unity Competence
   m_Description:
-    m_Untranslated: 'In this project, you''ll find Sample Assets for HDRP, Cinemachine,
+    m_Untranslated: In this project, you'll find Sample Assets for HDRP, Cinemachine,
       Input System and TextMeshPro
-
-
-      New to Unity? Quickstart your creation
-      journey with the step-by-step <b>Tutorials.</b>
-
-
-      Ready to create? Head
-      straight to the <b>Scene.</b>'
   m_Buttons:
   - Text:
       m_Untranslated: Walk the road
