@@ -89,7 +89,7 @@ MonoBehaviour:
     m_Untranslated: Next
   DoneButton:
     m_Untranslated: Done
-  m_CompletedSound: {fileID: 0}
+  m_CompletedSound: {fileID: 8300000, guid: 93fbb109633e844259ea828442bda0cb, type: 3}
   m_AutoAdvance: 0
   Showing:
     m_PersistentCalls:

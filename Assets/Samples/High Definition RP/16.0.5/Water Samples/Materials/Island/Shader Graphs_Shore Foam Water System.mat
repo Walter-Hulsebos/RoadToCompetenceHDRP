@@ -8,8 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Shader Graphs_Shore Foam Water System
-  m_Shader: {fileID: -6465566751694194690, guid: 83411d32d5fac824c80df55eca8f1bc8,
-    type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 83411d32d5fac824c80df55eca8f1bc8, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
@@ -79,6 +78,7 @@ Material:
     - _Tiling_and_Offset: {r: 20, g: 20, b: 0, a: 0}
     - _Vector4: {r: 40, g: 40, b: 0, a: 0}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!114 &4487198186264715375
 MonoBehaviour:
   m_ObjectHideFlags: 11

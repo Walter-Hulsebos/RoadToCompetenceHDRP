@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
   m_Name: 01-01_04-HDRPSettings
   m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Frame Settings
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -35,7 +37,7 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Frame Settings
+        m_Untranslated: 
       Text:
         m_Untranslated: "You can control exactly which HDRP features the cameras
           and reflection probes can render, such as Rendering features, Post-Processing,
@@ -88,7 +90,7 @@ MonoBehaviour:
     m_Untranslated: Next
   DoneButton:
     m_Untranslated: Done
-  m_CompletedSound: {fileID: 0}
+  m_CompletedSound: {fileID: 8300000, guid: 93fbb109633e844259ea828442bda0cb, type: 3}
   m_AutoAdvance: 0
   Showing:
     m_PersistentCalls:
