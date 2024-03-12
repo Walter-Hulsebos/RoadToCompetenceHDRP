@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f107dc6d4c984c45bdafd3bb15f98f0, type: 3}
-  m_Name: 02-00_BeforeStart
+  m_Name: 02-00_Introduction
   m_EditorClassIdentifier: 
   TutorialTitle:
-    m_Untranslated: Before You Start
+    m_Untranslated: Introduction
   m_ProgressTrackingEnabled: 1
   m_LessonId: 4f806680-ac0c-4fa4-9f90-460b198a7ede
   m_Version: 0
@@ -39,10 +39,10 @@ MonoBehaviour:
   m_WindowLayout: {fileID: 0}
   m_Pages:
     m_Items:
-    - {fileID: 11400000, guid: 8391ebb2b853d1a4c9316b9bd7eb105b, type: 2}
-    - {fileID: 11400000, guid: 9eb25f2c45ad6eb469513de42be01da7, type: 2}
-    - {fileID: 11400000, guid: 22f0426b3b757dd40830353e41b735a5, type: 2}
-    - {fileID: 11400000, guid: 6ee6a1761be581343a01fb942a44b9ba, type: 2}
+    - {fileID: 11400000, guid: c52de910243399941b3c44c45aca5bce, type: 2}
+    - {fileID: 11400000, guid: d4f325e591410fe49b02f0b97023e205, type: 2}
+    - {fileID: 11400000, guid: c2af08f8e62d327489b336929cdeba7e, type: 2}
+    - {fileID: 11400000, guid: ce1a67a3cb5de11418f930739a8f7320, type: 2}
   CompletionDialog: {fileID: 0}
   Modified:
     m_PersistentCalls:

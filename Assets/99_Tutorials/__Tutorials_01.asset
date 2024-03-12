@@ -19,12 +19,12 @@ MonoBehaviour:
   OrderInView: 1
   BackgroundImage: {fileID: 0}
   Title:
-    m_Untranslated: ROAD TO COMPETENCE - 02
+    m_Untranslated: ROAD TO COMPETENCE - 01
   Subtitle:
     m_Untranslated: High Definition Render Pipeline
   Description:
-    m_Untranslated: 
-  ProjectLayout: {fileID: 102900000, guid: 5e081507e2933e14d9dcaec83a20d2f9, type: 3}
+    m_Untranslated: Lead you through the basics of HDRP
+  ProjectLayout: {fileID: 102900000, guid: 9d6f44592b6054254899886ee83841f8, type: 3}
   Sections:
   - OrderInView: 0
     Heading:
@@ -35,6 +35,15 @@ MonoBehaviour:
     Url: 
     Image: {fileID: 2800000, guid: 947f3220a048a3d4083d266123e9f65d, type: 3}
     Tutorial: {fileID: 11400000, guid: ebec4973514480040801a2b878ce8bfc, type: 2}
+  - OrderInView: 2
+    Heading:
+      m_Untranslated: HDRP Settings
+    Text:
+      m_Untranslated: Learn how to set up the basic HDRP settings
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 67d4b8ade7870e14dac05b712639ffec, type: 3}
+    Tutorial: {fileID: 11400000, guid: 33c48265c0689f44f8792be685c0e101, type: 2}
   - OrderInView: 3
     Heading:
       m_Untranslated: Volumes
@@ -54,6 +63,24 @@ MonoBehaviour:
     Url: 
     Image: {fileID: 2800000, guid: ac897dd6f093b654a9048128ab32661c, type: 3}
     Tutorial: {fileID: 11400000, guid: 57eeee29217d0014889ef2dff656f4bf, type: 2}
+  - OrderInView: 6
+    Heading:
+      m_Untranslated: Exposure
+    Text:
+      m_Untranslated: Learn how to control the perceived brightness of a Scene
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 297cae5beb9f66340b565929d08f84ed, type: 3}
+    Tutorial: {fileID: 11400000, guid: 5a97a8110d08a744da2eb4678c76d1fb, type: 2}
+  - OrderInView: 7
+    Heading:
+      m_Untranslated: Sky
+    Text:
+      m_Untranslated: Learn how to control the Sky
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 962d1d34f77f4804581a2389f5c55a72, type: 3}
+    Tutorial: {fileID: 11400000, guid: 5b56243ad5e5e5a4c96029c7772fe66d, type: 2}
   - OrderInView: 8
     Heading:
       m_Untranslated: Fog
@@ -130,6 +157,15 @@ MonoBehaviour:
     Url: 
     Image: {fileID: 2800000, guid: 6f44c226a1eced34dbf1887898cb361f, type: 3}
     Tutorial: {fileID: 11400000, guid: dbf1444cb3f174246b015a9c9b4c5b1b, type: 2}
+  - OrderInView: 30
+    Heading:
+      m_Untranslated: Visual Effects
+    Text:
+      m_Untranslated: Learn how GPU particle effects were added to the Scene
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 6bbc075f2263e2f40876f783a1dc3a3a, type: 3}
+    Tutorial: {fileID: 11400000, guid: c8a568f8d148fe04a9d6059c3c4af548, type: 2}
   - OrderInView: 32
     Heading:
       m_Untranslated: Decals
@@ -139,3 +175,22 @@ MonoBehaviour:
     Url: 
     Image: {fileID: 2800000, guid: 72ae5899b6349c14ca51d46e3b5b8927, type: 3}
     Tutorial: {fileID: 11400000, guid: ab22ccf2c27371b4ab9628308bfe0ddf, type: 2}
+  - OrderInView: 33
+    Heading:
+      m_Untranslated: White Balance
+    Text:
+      m_Untranslated: Learn how to resolve unwanted color casts from artificial and
+        natural light
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: f840fafbbe7522d439b9574c5cd58c1e, type: 3}
+    Tutorial: {fileID: 11400000, guid: 5dccaf730723e85469a2245856ee3d8b, type: 2}
+  - OrderInView: 34
+    Heading:
+      m_Untranslated: Explore other learning resources
+    Text:
+      m_Untranslated: 'Find more resources here to continue learning about HDRP '
+    Metadata: 
+    Url: 
+    Image: {fileID: 2800000, guid: 0724f780cf76db44d9cbaabfce208968, type: 3}
+    Tutorial: {fileID: 11400000, guid: 1d0536e5ec610ca4f871097b8440fcfe, type: 2}
