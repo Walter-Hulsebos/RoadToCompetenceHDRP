@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
-  m_Name: 3_04-Inspector Color Change
+  m_Name: 3_06-FastPlayMode
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Configure Preferences
+    m_Untranslated: Fast Enter Play Mode
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -39,15 +39,9 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: 'Changes you make during play mode aren''t saved.
-
-          To
-          avoid mistakes with this, it''s a good trick to configure some obnoxious
-          colour when you''re in play mode.
-
-          To do this, go to: <i><b>
-          Edit > Preferences > Colors</i></b>on Windows and Linux or <i><b>Unity
-          > Preferences > Color</i></b> on Mac'
+        m_Untranslated: You may have noticed entering Play Mode can be kinda slow,
+          even in very simple scenes. This is because Unity has to do a lot of background
+          processes to refresh things.
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -64,20 +58,35 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 1
       Title:
-        m_Untranslated: 
+        m_Untranslated: Fast Enter Play Mode
       Text:
-        m_Untranslated: Go to <i><b> Edit > Preferences > Colors</i></b>on Windows
-          and Linux or <i><b>Unity > Preferences > Color</i></b> on Mac
+        m_Untranslated: "Luckily Unity has some ways to speed that up massively.\n\nThere
+          are more, but Unity gives users control over two very significant processes
+          when starting play mode:\n1. <b>Reload Scene</b>\n Destroys all GameObjects
+          in the editor and reloads the scene *from disk*, as it would when loading
+          a scene in a build.\n2. <b>Reload Domain</b>\nResets the entire C# State; 
+          all static fields, properties, and event handlers are reset when entering
+          Play Mode.\n\nToggling both off can easily lead to a 10x speedup in starting
+          play mode.\n\nGo to <b>Edit > Project Settings > Editor</b>,  then search
+          for <b>Enter Play Mode Settings</b> -Toggle it on, and configure the settings
+          how you like.\n\nThe reason these processes aren't disabled by default
+          is that there are some caveats to it.\n\n<b>NOTE:</b> If you choose to
+          disable Reload Domain, you'll need to edit your scripts to handle these
+          resets manually, since they <i>do need to happen</i>!:\n\nIf you don't
+          use any static fields, properties or event handlers yourself, there's not
+          much to worry about, but if you do, or you use third-party assets it's
+          something to look out for, because they might do and not account for this
+          setting.\nFor this demo project it's not an issue, but if you choose to
+          use these settings in your own project, definitely forward the documentation
+          below to your programmer(s).\n<a href=\"https://docs.unity3d.com/Manual/DomainReloading.html\">Unity
+          - Manual: Domain Reloading</a> \n<a href=\"https://docs.unity3d.com/Manual/SceneReloading.html\">Unity
+          - Manual: Scene Reloading</a> "
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
       m_CriteriaCompletion: 0
       m_Criteria:
-        m_Items:
-        - Type:
-            m_TypeName: Unity.Tutorials.Core.Editor.EditorWindowCriterion, Unity.Tutorials.Core.Editor,
-              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          Criterion: {fileID: 9098392122795886297}
+        m_Items: []
       m_MaskingSettings:
         m_MaskingEnabled: 0
         m_UnmaskedViews: []
@@ -140,26 +149,3 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: 
   m_DoneButton: 
---- !u!114 &9098392122795886297
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f095ab04ffe3b514c808035bb335fa56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Completed:
-    m_PersistentCalls:
-      m_Calls: []
-  Invalidated:
-    m_PersistentCalls:
-      m_Calls: []
-  isTesting: 0
-  m_EditorWindowType:
-    m_TypeName: UnityEditor.PreferenceSettingsWindow, UnityEditor.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  m_CloseIfAlreadyOpen: 0

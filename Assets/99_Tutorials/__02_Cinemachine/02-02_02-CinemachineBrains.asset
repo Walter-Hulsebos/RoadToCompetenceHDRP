@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
-  m_Name: 3_04-Inspector Color Change
+  m_Name: 02-02_02-CinemachineBrains
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Configure Preferences
+    m_Untranslated: Adding a CinemachineBrain
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -29,7 +29,18 @@ MonoBehaviour:
         m_Items: []
       m_MaskingSettings:
         m_MaskingEnabled: 0
-        m_UnmaskedViews: []
+        m_UnmaskedViews:
+        - m_SelectorType: 1
+          m_ViewType:
+            m_TypeName: 
+          m_EditorWindowType:
+            m_TypeName: UnityEditor.SceneView, UnityEditor.CoreModule, Version=0.0.0.0,
+              Culture=neutral, PublicKeyToken=null
+          m_AlternateEditorWindowTypes:
+            m_Items: []
+          m_MaskType: 0
+          m_MaskSizeModifier: 1
+          m_UnmaskedControls: []
       m_Summary: 
       m_Description: 
       m_InstructionBoxTitle: 
@@ -39,15 +50,13 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: 'Changes you make during play mode aren''t saved.
-
-          To
-          avoid mistakes with this, it''s a good trick to configure some obnoxious
-          colour when you''re in play mode.
-
-          To do this, go to: <i><b>
-          Edit > Preferences > Colors</i></b>on Windows and Linux or <i><b>Unity
-          > Preferences > Color</i></b> on Mac'
+        m_Untranslated: "To add a Cinemachine Brain component to a Unity camera,
+          do **one** of the following:\n\n\u2022 <a href=\"https://docs.unity3d.com/Packages/com.unity.cinemachine@3.0/manual/CinemachineSetUpVCam.html\">Add
+          a CinemachineCamera</a> to your Scene. \nWhen you do, Unity automatically
+          adds a Cinemachine Brain component to the Unity Camera if there isn\u2019t
+          one already. \n<i>(We did this as part of the CinemachineCamera section
+          in the tutorial)</i>\n\n\u2022 <a href=\"https://docs.unity3d.com/Manual/UsingComponents.html\">Manually
+          add</a> a Cinemachine Brain component to the Unity Camera."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -62,37 +71,13 @@ MonoBehaviour:
       m_InstructionBoxTitle: 
       m_InstructionText: 
       m_TutorialButtonText: 
-    - m_Type: 1
-      Title:
-        m_Untranslated: 
-      Text:
-        m_Untranslated: Go to <i><b> Edit > Preferences > Colors</i></b>on Windows
-          and Linux or <i><b>Unity > Preferences > Color</i></b> on Mac
-      m_Tutorial: {fileID: 0}
-      m_Image: {fileID: 0}
-      m_Video: {fileID: 0}
-      m_CriteriaCompletion: 0
-      m_Criteria:
-        m_Items:
-        - Type:
-            m_TypeName: Unity.Tutorials.Core.Editor.EditorWindowCriterion, Unity.Tutorials.Core.Editor,
-              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          Criterion: {fileID: 9098392122795886297}
-      m_MaskingSettings:
-        m_MaskingEnabled: 0
-        m_UnmaskedViews: []
-      m_Summary: 
-      m_Description: 
-      m_InstructionBoxTitle: 
-      m_InstructionText: 
-      m_TutorialButtonText: 
   m_CameraSettings:
     m_CameraMode: 1
     m_FocusMode: 0
     m_Orthographic: 0
     m_Size: 10
-    m_Pivot: {x: -5, y: 26.339746, z: -12}
-    m_Rotation: {x: 0.5, y: 0, z: 0, w: 0.8660254}
+    m_Pivot: {x: 0.4612465, y: 9.553326, z: 0.66909266}
+    m_Rotation: {x: -0.11598007, y: 0.5433982, z: 0.07614133, w: 0.8279308}
     m_FrameObject:
       m_SceneGuid: 
       m_GameObjectGuid: 
@@ -101,9 +86,9 @@ MonoBehaviour:
       m_ComponentIndex: 0
       m_AssetObject: {fileID: 0}
       m_Prefab: {fileID: 0}
-    m_Enabled: 0
+    m_Enabled: 1
   NextButton:
-    m_Untranslated: Start
+    m_Untranslated: Next
   DoneButton:
     m_Untranslated: Done
   m_CompletedSound: {fileID: 8300000, guid: 93fbb109633e844259ea828442bda0cb, type: 3}
@@ -140,26 +125,3 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: 
   m_DoneButton: 
---- !u!114 &9098392122795886297
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f095ab04ffe3b514c808035bb335fa56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Completed:
-    m_PersistentCalls:
-      m_Calls: []
-  Invalidated:
-    m_PersistentCalls:
-      m_Calls: []
-  isTesting: 0
-  m_EditorWindowType:
-    m_TypeName: UnityEditor.PreferenceSettingsWindow, UnityEditor.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  m_CloseIfAlreadyOpen: 0

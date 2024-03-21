@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 02-00_00-Introduction
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Quality and Performance
+    m_Untranslated: Cinemachine Introduction
   m_Paragraphs:
     m_Items:
     - m_Type: 6

@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
-  m_Name: 3_04-Inspector Color Change
+  m_Name: 02-01_01-CinemachineCamera
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Configure Preferences
+    m_Untranslated: Cinemachine Camera - Components
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -39,15 +39,26 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: 'Changes you make during play mode aren''t saved.
+        m_Untranslated: 'On its own, the CinemachineCamera is passive, meaning that
+          its Transform can be controlled or parented, just like any other GameObject.
 
-          To
-          avoid mistakes with this, it''s a good trick to configure some obnoxious
-          colour when you''re in play mode.
 
-          To do this, go to: <i><b>
-          Edit > Preferences > Colors</i></b>on Windows and Linux or <i><b>Unity
-          > Preferences > Color</i></b> on Mac'
+          The
+          real magic happens when adding Procedural Components like <b>Position Control</b>
+          <b>Rotation Control</b> and <b>Noise</b> to dynamically track targets and
+          compose shots.
+
+
+          The modules take over and control the CinemachineCamera''s
+          properties for you, so you don''t have to do it yourself via code.
+
+
+          You
+          can also add Modules that add on top of those behaviours, like noise, screen-shake,
+          and more.
+
+          <i>We''ll dive more into these a bit further in the
+          tutorial.</i>'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -62,37 +73,13 @@ MonoBehaviour:
       m_InstructionBoxTitle: 
       m_InstructionText: 
       m_TutorialButtonText: 
-    - m_Type: 1
-      Title:
-        m_Untranslated: 
-      Text:
-        m_Untranslated: Go to <i><b> Edit > Preferences > Colors</i></b>on Windows
-          and Linux or <i><b>Unity > Preferences > Color</i></b> on Mac
-      m_Tutorial: {fileID: 0}
-      m_Image: {fileID: 0}
-      m_Video: {fileID: 0}
-      m_CriteriaCompletion: 0
-      m_Criteria:
-        m_Items:
-        - Type:
-            m_TypeName: Unity.Tutorials.Core.Editor.EditorWindowCriterion, Unity.Tutorials.Core.Editor,
-              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          Criterion: {fileID: 9098392122795886297}
-      m_MaskingSettings:
-        m_MaskingEnabled: 0
-        m_UnmaskedViews: []
-      m_Summary: 
-      m_Description: 
-      m_InstructionBoxTitle: 
-      m_InstructionText: 
-      m_TutorialButtonText: 
   m_CameraSettings:
     m_CameraMode: 1
     m_FocusMode: 0
     m_Orthographic: 0
-    m_Size: 10
-    m_Pivot: {x: -5, y: 26.339746, z: -12}
-    m_Rotation: {x: 0.5, y: 0, z: 0, w: 0.8660254}
+    m_Size: 9.190221
+    m_Pivot: {x: 79.427986, y: 0.6334665, z: 3.1360433}
+    m_Rotation: {x: 0.04565643, y: 0.62874043, z: -0.037015464, w: 0.7754256}
     m_FrameObject:
       m_SceneGuid: 
       m_GameObjectGuid: 
@@ -103,7 +90,7 @@ MonoBehaviour:
       m_Prefab: {fileID: 0}
     m_Enabled: 0
   NextButton:
-    m_Untranslated: Start
+    m_Untranslated: Next
   DoneButton:
     m_Untranslated: Done
   m_CompletedSound: {fileID: 8300000, guid: 93fbb109633e844259ea828442bda0cb, type: 3}
@@ -140,26 +127,3 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: 
   m_DoneButton: 
---- !u!114 &9098392122795886297
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f095ab04ffe3b514c808035bb335fa56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Completed:
-    m_PersistentCalls:
-      m_Calls: []
-  Invalidated:
-    m_PersistentCalls:
-      m_Calls: []
-  isTesting: 0
-  m_EditorWindowType:
-    m_TypeName: UnityEditor.PreferenceSettingsWindow, UnityEditor.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  m_CloseIfAlreadyOpen: 0

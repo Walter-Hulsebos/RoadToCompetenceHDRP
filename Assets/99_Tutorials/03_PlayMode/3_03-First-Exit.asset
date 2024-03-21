@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
   m_Name: 3_03-First-Exit
   m_EditorClassIdentifier: 
+  Title:
+    m_Untranslated: Explore the game
   m_Paragraphs:
     m_Items:
     - m_Type: 7
@@ -51,10 +53,12 @@ MonoBehaviour:
           m_MaskSizeModifier: 0
           m_UnmaskedControls:
           - m_SelectorMode: 5
+            m_SelectorMatchType: 0
             m_GUIContent:
               m_Text: 
               m_Image: {fileID: 0}
               m_Tooltip: 
+              m_TextWithWhitespace: 
             m_ControlName: ToolbarPlayModePlayButton
             m_PropertyPath: 
             m_TargetType:
@@ -80,11 +84,16 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 0
       Title:
-        m_Untranslated: Explore the game
+        m_Untranslated: 
       Text:
-        m_Untranslated: "You can: \n\n\u2022 Move using the <b>WASD</b> or <b>arrow</b>
-          keys\n\n\u2022 Look around with your mouse or trackpad and click to shoot\n\n\u2022
-          Jump using the <b>spacebar</b>\n\n\u2022 Pause or view options using <b>Tab</b>"
+        m_Untranslated: 'While in play mode any changes you make aren''t saved.
+
+          That''s
+          a good thing because your scripts may be changing these settings as well.
+
+          But
+          sometimes for beginners that can lead to confusion, so let''s configure
+          a setting that makes it abundantly clear that we''re in play mode.'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -117,10 +126,12 @@ MonoBehaviour:
           m_MaskSizeModifier: 0
           m_UnmaskedControls:
           - m_SelectorMode: 1
+            m_SelectorMatchType: 0
             m_GUIContent:
               m_Text: 
               m_Image: {fileID: 0}
               m_Tooltip: 
+              m_TextWithWhitespace: 
             m_ControlName: ToolbarPlayModePlayButton
             m_PropertyPath: 
             m_TargetType:
@@ -240,4 +251,5 @@ MonoBehaviour:
   Invalidated:
     m_PersistentCalls:
       m_Calls: []
+  isTesting: 0
   m_RequiredPlayModeState: 1

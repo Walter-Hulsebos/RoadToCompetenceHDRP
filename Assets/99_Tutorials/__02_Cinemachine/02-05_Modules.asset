@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f107dc6d4c984c45bdafd3bb15f98f0, type: 3}
-  m_Name: 3_00_PlayMode
+  m_Name: 02-05_Modules
   m_EditorClassIdentifier: 
   TutorialTitle:
-    m_Untranslated: Play Mode Tips & Tricks
+    m_Untranslated: Sky
   m_ProgressTrackingEnabled: 1
-  m_LessonId: 48142
+  m_LessonId: 2b01f0a7-d5b6-4348-ab56-17d65aebd3e7
   m_Version: 0
-  m_SceneManagementBehavior: 1
+  m_SceneManagementBehavior: 0
   m_Scenes:
-  - {fileID: 102900000, guid: a40b886610ac4844aaa3ab7dd51cbafe, type: 3}
+  - {fileID: 102900000, guid: 3db1837cc97a95e4c98610966fac2b0b, type: 3}
   m_DefaultSceneCameraSettings:
     m_CameraMode: 0
     m_FocusMode: 0
@@ -36,16 +36,12 @@ MonoBehaviour:
       m_AssetObject: {fileID: 0}
       m_Prefab: {fileID: 0}
     m_Enabled: 0
-  m_WindowLayout: {fileID: 102900000, guid: 9d6f44592b6054254899886ee83841f8, type: 3}
+  m_WindowLayout: {fileID: 0}
   m_Pages:
     m_Items:
-    - {fileID: 11400000, guid: c16c5a02da356422d90eeb5b0e9d48d3, type: 2}
-    - {fileID: 11400000, guid: d96ebb80cdd184cc4a4e937acc4691bb, type: 2}
-    - {fileID: 11400000, guid: 9d8534870475e4fa9b66e42843a86a19, type: 2}
-    - {fileID: 11400000, guid: d9ecd588dd45b6b4999f8b03eec09673, type: 2}
-    - {fileID: 11400000, guid: 1d2b5c8d7e54dff4db3132f8653847c7, type: 2}
-    - {fileID: 11400000, guid: 016967cc56db3574ab0e4dc67f4e080e, type: 2}
-    - {fileID: 11400000, guid: 04f3f078480314da88c1a2b875c18b80, type: 2}
+    - {fileID: 11400000, guid: 29854b7c7c15da746a4b05345d14f1e2, type: 2}
+    - {fileID: 11400000, guid: 863780a006727314e92eafcc7c4c39ad, type: 2}
+    - {fileID: 11400000, guid: 536e19bf523fb3742adca6acc77467bb, type: 2}
   CompletionDialog: {fileID: 0}
   Modified:
     m_PersistentCalls:
@@ -65,5 +61,5 @@ MonoBehaviour:
   Quit:
     m_PersistentCalls:
       m_Calls: []
-  m_Scene: {fileID: 102900000, guid: d794a2ef8ba31d847ad3c19d03e2ddb9, type: 3}
+  m_Scene: {fileID: 0}
   m_TutorialTitle: 

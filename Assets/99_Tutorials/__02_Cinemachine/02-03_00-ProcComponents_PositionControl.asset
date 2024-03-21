@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff771ccdf4150419d9ff4d342b069aae, type: 3}
-  m_Name: 3_04-Inspector Color Change
+  m_Name: 02-03_00-ProcComponents_PositionControl
   m_EditorClassIdentifier: 
   Title:
-    m_Untranslated: Configure Preferences
+    m_Untranslated: Position Control
   m_Paragraphs:
     m_Items:
     - m_Type: 6
@@ -39,15 +39,22 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: 'Changes you make during play mode aren''t saved.
-
-          To
-          avoid mistakes with this, it''s a good trick to configure some obnoxious
-          colour when you''re in play mode.
-
-          To do this, go to: <i><b>
-          Edit > Preferences > Colors</i></b>on Windows and Linux or <i><b>Unity
-          > Preferences > Color</i></b> on Mac'
+        m_Untranslated: "Controls the position of the Cinemachine Camera. It gives
+          you a drop-down for a set of pre-defined behaviours to pick from, for most
+          all games these are more than flexible enough. \n\n<i>Note: You can only
+          use one at a time.</i>\n\n<b>The Built-in behaviours are as follows:</b>\n\n\u2022
+          <a href=\"https://docs.unity3d.com/Packages/com.unity.cinemachine@3.0/manual/CinemachineFollow.html\">Follow</a>\nMoves
+          in a fixed relationship to the <b>Tracking Target</b>.\n\n\u2022 <a href=\"https://docs.unity3d.com/Packages/com.unity.cinemachine@3.0/manual/CinemachineOrbitalFollow.html\">Orbital
+          Follow</a> \nMoves in orbit around the <b>Tracking Target</b>, optionally
+          accepting player input.\n\n\u2022 <a href=\"https://docs.unity3d.com/Packages/com.unity.cinemachine@3.0/manual/CinemachineThirdPersonFollow.html\">Third
+          Person follow</a>\nPivots the camera horizontally and vertically around
+          the player, with the pivot point at the <b>Tracking Target</b>, following
+          the rotation of the tracking target.\n\n\u2022 <a href=\"https://docs.unity3d.com/Packages/com.unity.cinemachine@3.0/manual/CinemachinePositionComposer.html\">Position
+          Composer</a>\n Moves in a fixed screen-space relationship to the <b>Tracking
+          Target</b>.\n\n\u2022 <a href=\"https://docs.unity3d.com/Packages/com.unity.cinemachine@3.0/manual/CinemachineHardLockToTarget.html\">Hard
+          Lock to Target</a>\nUses the same position as the <b>Tracking Target</b>\n\n\u2022
+          <a href=\"https://docs.unity3d.com/Packages/com.unity.cinemachine@3.0/manual/CinemachineSplineDolly.html\">Spline
+          Dolly</a>\nMoves along a predefined path, specified by a Spline."
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
@@ -62,37 +69,13 @@ MonoBehaviour:
       m_InstructionBoxTitle: 
       m_InstructionText: 
       m_TutorialButtonText: 
-    - m_Type: 1
-      Title:
-        m_Untranslated: 
-      Text:
-        m_Untranslated: Go to <i><b> Edit > Preferences > Colors</i></b>on Windows
-          and Linux or <i><b>Unity > Preferences > Color</i></b> on Mac
-      m_Tutorial: {fileID: 0}
-      m_Image: {fileID: 0}
-      m_Video: {fileID: 0}
-      m_CriteriaCompletion: 0
-      m_Criteria:
-        m_Items:
-        - Type:
-            m_TypeName: Unity.Tutorials.Core.Editor.EditorWindowCriterion, Unity.Tutorials.Core.Editor,
-              Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-          Criterion: {fileID: 9098392122795886297}
-      m_MaskingSettings:
-        m_MaskingEnabled: 0
-        m_UnmaskedViews: []
-      m_Summary: 
-      m_Description: 
-      m_InstructionBoxTitle: 
-      m_InstructionText: 
-      m_TutorialButtonText: 
   m_CameraSettings:
     m_CameraMode: 1
     m_FocusMode: 0
     m_Orthographic: 0
     m_Size: 10
-    m_Pivot: {x: -5, y: 26.339746, z: -12}
-    m_Rotation: {x: 0.5, y: 0, z: 0, w: 0.8660254}
+    m_Pivot: {x: 30.995693, y: 1.7272234, z: 11.294565}
+    m_Rotation: {x: -0.001072682, y: -0.4292754, z: -0.00051460584, w: 0.9031752}
     m_FrameObject:
       m_SceneGuid: 
       m_GameObjectGuid: 
@@ -103,7 +86,7 @@ MonoBehaviour:
       m_Prefab: {fileID: 0}
     m_Enabled: 0
   NextButton:
-    m_Untranslated: Start
+    m_Untranslated: Next
   DoneButton:
     m_Untranslated: Done
   m_CompletedSound: {fileID: 8300000, guid: 93fbb109633e844259ea828442bda0cb, type: 3}
@@ -140,26 +123,3 @@ MonoBehaviour:
       m_Calls: []
   m_NextButton: 
   m_DoneButton: 
---- !u!114 &9098392122795886297
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f095ab04ffe3b514c808035bb335fa56, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Completed:
-    m_PersistentCalls:
-      m_Calls: []
-  Invalidated:
-    m_PersistentCalls:
-      m_Calls: []
-  isTesting: 0
-  m_EditorWindowType:
-    m_TypeName: UnityEditor.PreferenceSettingsWindow, UnityEditor.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  m_CloseIfAlreadyOpen: 0

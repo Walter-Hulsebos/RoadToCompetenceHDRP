@@ -103,7 +103,7 @@ MonoBehaviour:
       m_TutorialButtonText: 
     - m_Type: 1
       Title:
-        m_Untranslated: 
+        m_Untranslated: You'll now notice that your editor changes color.
       Text:
         m_Untranslated: Select <b>Play</b> to enter Play Mode.
       m_Tutorial: {fileID: 0}
