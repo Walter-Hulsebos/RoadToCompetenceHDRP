@@ -84,11 +84,14 @@ MonoBehaviour:
           or animate the target more smoothly.\n\n\u2022 <b>Lookahead Smoothing:</b>\nControls
           the smoothness of the lookahead algorithm. Larger values smooth out jittery
           predictions and increase prediction lag.\n\n\u2022 <b>Lookahead Ignore
-          Y:</b>\nWhether to ignore movement along the Y axis for lookahead calculations.\n\n\nMastering
-          composition takes practice, try and learn from the greats.\nAnalyze similar
-          games to understand how they manage camera composition, here are some good
-          resources on how to do that:\n\u2022 <a href=\"https://youtu.be/2aDtbhPE3ag\">Quick
-          Game Camera Analysis: Kirby and the Forgotten Land</a>\n\u2022 <a href=\"https://youtu.be/9cxPRHpvuKo\">Quick
+          Y:</b>\nWhether to ignore movement along the Y axis for lookahead calculations.\n\nOnce
+          you're done trying out the settings, reset it by right-clicking the <i>Rotation
+          Composer</i> component and clicking <b>Reset</b>\nThen re-enable the <b>Orbital
+          Follow</b> component.\n\nMastering composition takes practice, try and
+          learn from the greats.\nAnalyze similar games to understand how they manage
+          camera composition, here are some good resources on how to do that:\n\u2022
+          <a href=\"https://youtu.be/2aDtbhPE3ag\">Quick Game Camera Analysis: Kirby
+          and the Forgotten Land</a>\n\u2022 <a href=\"https://youtu.be/9cxPRHpvuKo\">Quick
           Game Camera Analysis: Zelda Tears Of The Kingdom</a>"
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}

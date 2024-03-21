@@ -39,17 +39,12 @@ MonoBehaviour:
       Title:
         m_Untranslated: 
       Text:
-        m_Untranslated: "Noise is used to simulate natural camera shake. \nBy default,
-          Cinemachine includes a <b>Basic Multi Channel Perlin</b> component, which
-          adds Perlin noise to the movement of the camera. <b>Perlin noise</b> is
-          a technique to compute pseudo-random movement with a natural behavior.\n\nThe
-          <b>Basic Multi Channel Perlin</b> component applies a <b>Noise Setting</b>.
-          \nA noise setting/profile is an Asset that defines the behavior of noise
-          over time. \nCinemachine includes a few presets, you can <a href=\"https://docs.unity3d.com/Packages/com.unity.cinemachine@3.0/manual/CinemachineNoiseProfiles.html\">edit
-          these and create your own</a>.\n\nFor now, let's add Basic Multi Channel
-          Perlin, by going to your CinemachineCamera, selecting <b>Noise</b> and
-          from the drop-down select <b>Basic Multi Channel Perlin</b>\n\nThen in
-          the new component look for\n\n"
+        m_Untranslated: 'Then in the new <b>Basic Multi Channel Perlin</b>, click
+          on the little gear icon to choose one of the presets. Pick one.
+
+
+          If
+          you now enter play mode there''ll be noise added on top of the settings.'
       m_Tutorial: {fileID: 0}
       m_Image: {fileID: 0}
       m_Video: {fileID: 0}
