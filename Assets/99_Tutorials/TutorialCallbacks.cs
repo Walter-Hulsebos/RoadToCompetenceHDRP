@@ -5,13 +5,15 @@ using UnityEngine.AI;
 
 namespace Unity.Tutorials
 {
+    using UnityEngine.Serialization;
+
     /// <summary>
     /// Implement your Tutorial callbacks here.
     /// </summary>
     public class TutorialCallbacks : ScriptableObject
     {
-        public FutureObjectReference futureRoomInstance = default;
-        public FutureObjectReference futureBotInstance = default;
+        public FutureObjectReference futurePrefabInstance = default;
+        //public FutureObjectReference futureBotInstance = default;
         //NavMeshSurface navMeshSurface = default;
 
         // public bool NavMeshIsBuilt()
@@ -32,20 +34,11 @@ namespace Unity.Tutorials
         /// <summary>
         /// Keeps the Room selected during a tutorial. 
         /// </summary>
-        public void KeepRoomSelected()
+        public void KeepPrefabSelected()
         {
-            SelectSpawnedGameObject(futureRoomInstance);
+            SelectSpawnedGameObject(futureObjectReference: futurePrefabInstance);
         }
-
-        /// <summary>
-        /// Keeps the Room selected during a tutorial. 
-        /// </summary>
-        public void KeepBotSelected()
-        {
-            SelectSpawnedGameObject(futureBotInstance);
-        }
-
-
+        
         /// <summary>
         /// Selects a GameObject in the scene, marking it as the active object for selection
         /// </summary>
@@ -68,7 +61,7 @@ namespace Unity.Tutorials
 
         public void StartTutorial(Tutorial tutorial)
         {
-            TutorialManager.Instance.StartTutorial(tutorial);
+            TutorialManager.Instance.StartTutorial(tutorial: tutorial);
         }
     }
 }

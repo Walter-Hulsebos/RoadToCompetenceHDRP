@@ -46,15 +46,6 @@ MonoBehaviour:
     Tutorial: {fileID: 11400000, guid: 97ff54290d4d54a86b2e22ed724ab843, type: 2}
   - OrderInView: 2
     Heading:
-      m_Untranslated: Nested <color=#7fd6fc>Prefabs</color>
-    Text:
-      m_Untranslated: Learn how to use Nested Prefabs & Prefab Variants
-    Metadata: 
-    Url: 
-    Image: {fileID: 2800000, guid: a77faddc74a5a452e8ae1a65ef7e92c7, type: 3}
-    Tutorial: {fileID: 11400000, guid: 19c772fecca96fe49b4248a8aec9eeb9, type: 2}
-  - OrderInView: 3
-    Heading:
       m_Untranslated: Play Mode
     Text:
       m_Untranslated: Enter Play Mode Tips & Tricks
